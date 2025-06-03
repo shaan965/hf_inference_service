@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+gunicorn
+transformers
+torch
+pydantic
+requests
+aiohttp
+notebook
+python-dotenv # For managing environment variables like model name
