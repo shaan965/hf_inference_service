@@ -2,6 +2,8 @@
 
 This project provides a scalable, containerized REST API for performing sentiment analysis using a pre-trained HuggingFace model. Built with FastAPI, Gunicorn, Uvicorn, and Docker, it is optimized to handle **multiple parallel inference requests** efficiently in a production-ready architecture.
 
+[Visualization webpage](https://gemini.google.com/share/4728b0e1b278) from the presentation: Task 1 - Web Scraping Architecture, Task 2 - ML Inference Serving
+
 ---
 
 ## Features
