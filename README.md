@@ -25,7 +25,8 @@ We use the [DistilBERT SST-2 model](https://huggingface.co/distilbert-base-uncas
 ---
 
 ## Project Structure
-hf_inference_service/
+
+### hf_inference_service/
 │
 ├── app/
 │ ├── main.py # FastAPI app with endpoints
@@ -37,7 +38,7 @@ hf_inference_service/
 │
 ├── requirements.txt # Python dependencies
 └── README.md
-
+###
 ---
 
 ## 🚀 Getting Started
