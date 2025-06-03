@@ -26,19 +26,20 @@ We use the [DistilBERT SST-2 model](https://huggingface.co/distilbert-base-uncas
 
 ## Project Structure
 
-###hf_inference_service/
-###│
-###├── app/
-###│ ├── main.py # FastAPI app with endpoints
-###│ ├── model_loader.py # Loads and manages HuggingFace pipeline
-###│ └── Dockerfile # Container configuration
-###│
-###├── notebook/
-###│ └── demo_parallel_reqs.ipynb # Jupyter Notebook for testing parallel requests
-###│
-###├── requirements.txt # Python dependencies
-###└── README.md
-
+```
+hf_inference_service/
+│
+├── app/
+│ ├── main.py # FastAPI app with endpoints
+│ ├── model_loader.py # Loads and manages HuggingFace pipeline
+│ └── Dockerfile # Container configuration
+│
+├── notebook/
+│ └── demo_parallel_reqs.ipynb # Jupyter Notebook for testing parallel requests
+│
+├── requirements.txt # Python dependencies
+└── README.md
+```
 ---
 
 ## 🚀 Getting Started
